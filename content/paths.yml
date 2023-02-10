@@ -9,7 +9,7 @@
   post:
     "$ref": "./paths/authorization__post_oauth2_token.yml"
 
-"/oauth2/token#refresh":
+"/oauth2/token%23refresh":
   post:
     "$ref": "./paths/authorization__post_oauth2_token--refresh.yml"
 
@@ -247,15 +247,15 @@
   delete:
     "$ref": "./paths/classifications__delete_metadata_templates_enterprise_securityClassification-6VMVochwUWo_schema.yml"
 
-"/metadata_templates/enterprise/securityClassification-6VMVochwUWo/schema#add":
+"/metadata_templates/enterprise/securityClassification-6VMVochwUWo/schema%23add":
   put:
     "$ref": "./paths/classifications__put_metadata_templates_enterprise_securityClassification-6VMVochwUWo_schema--add.yml"
 
-"/metadata_templates/enterprise/securityClassification-6VMVochwUWo/schema#update":
+"/metadata_templates/enterprise/securityClassification-6VMVochwUWo/schema%23update":
   put:
     "$ref": "./paths/classifications__put_metadata_templates_enterprise_securityClassification-6VMVochwUWo_schema--update.yml"
 
-"/metadata_templates/enterprise/securityClassification-6VMVochwUWo/schema#delete":
+"/metadata_templates/enterprise/securityClassification-6VMVochwUWo/schema%23delete":
   put:
     "$ref": "./paths/classifications__put_metadata_templates_enterprise_securityClassification-6VMVochwUWo_schema--delete.yml"
 
@@ -284,7 +284,7 @@
   post:
     "$ref": "./paths/metadata_templates__post_metadata_templates_schema.yml"
 
-"/metadata_templates/schema#classifications":
+"/metadata_templates/schema%23classifications":
   post:
     "$ref": "./paths/classifications__post_metadata_templates_schema.yml"
 
@@ -374,39 +374,39 @@
   get:
     "$ref": "./paths/shared_links_files__get_shared_items.yml"
 
-"/files/{file_id}#get_shared_link":
+"/files/{file_id}%23get_shared_link":
   get:
     "$ref": "./paths/shared_links_files__get_files_id--get_shared_link.yml"
 
-"/files/{file_id}#add_shared_link":
+"/files/{file_id}%23add_shared_link":
   put:
     "$ref": "./paths/shared_links_files__put_files_id--add_shared_link.yml"
 
-"/files/{file_id}#update_shared_link":
+"/files/{file_id}%23update_shared_link":
   put:
     "$ref": "./paths/shared_links_files__put_files_id--update_shared_link.yml"
 
-"/files/{file_id}#remove_shared_link":
+"/files/{file_id}%23remove_shared_link":
   put:
     "$ref": "./paths/shared_links_files__put_files_id--remove_shared_link.yml"
 
-"/shared_items#folders":
+"/shared_items%23folders":
   get:
     "$ref": "./paths/shared_links_folders__get_shared_items--folders.yml"
 
-"/folders/{folder_id}#get_shared_link":
+"/folders/{folder_id}%23get_shared_link":
   get:
     "$ref": "./paths/shared_links_folders__get_folders_id--get_shared_link.yml"
 
-"/folders/{folder_id}#add_shared_link":
+"/folders/{folder_id}%23add_shared_link":
   put:
     "$ref": "./paths/shared_links_folders__put_folders_id--add_shared_link.yml"
 
-"/folders/{folder_id}#update_shared_link":
+"/folders/{folder_id}%23update_shared_link":
   put:
     "$ref": "./paths/shared_links_folders__put_folders_id--update_shared_link.yml"
 
-"/folders/{folder_id}#remove_shared_link":
+"/folders/{folder_id}%23remove_shared_link":
   put:
     "$ref": "./paths/shared_links_folders__put_folders_id--remove_shared_link.yml"
 
@@ -430,23 +430,23 @@
   delete:
     "$ref": "./paths/trashed_web_links__delete_web_links_id_trash.yml"
 
-"/shared_items#web_links":
+"/shared_items%23web_links":
   get:
     "$ref": "./paths/shared_links_web_links__get_shared_items--web_links.yml"
 
-"/web_links/{web_link_id}#get_shared_link":
+"/web_links/{web_link_id}%23get_shared_link":
   get:
     "$ref": "./paths/shared_links_web_links__get_web_links_id--get_shared_link.yml"
 
-"/web_links/{web_link_id}#add_shared_link":
+"/web_links/{web_link_id}%23add_shared_link":
   put:
     "$ref": "./paths/shared_links_web_links__put_web_links_id--add_shared_link.yml"
 
-"/web_links/{web_link_id}#update_shared_link":
+"/web_links/{web_link_id}%23update_shared_link":
   put:
     "$ref": "./paths/shared_links_web_links__put_web_links_id--update_shared_link.yml"
 
-"/web_links/{web_link_id}#remove_shared_link":
+"/web_links/{web_link_id}%23remove_shared_link":
   put:
     "$ref": "./paths/shared_links_web_links__put_web_links_id--remove_shared_link.yml"
 

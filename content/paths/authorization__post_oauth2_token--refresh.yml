@@ -1,5 +1,5 @@
 ---
-operationId: post_oauth2_token#refresh
+operationId: post_oauth2_token%23refresh
 
 summary: |-
   Refresh access token
